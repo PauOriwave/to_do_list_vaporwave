@@ -1,0 +1,92 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #2b2e4a; /* Fondo oscuro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://example.com/vaporwave-bg.jpg'); /* Opcional: Fondo con imagen vaporwave */
+  background-size: cover;
+  color: #f7f7f7;
+}
+
+.App {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.4), 0 0 30px rgba(0, 255, 255, 0.4);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ff77e9;
+  text-shadow: 2px 2px 0px #00f0ff, 4px 4px 0px #ff77e9;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 80%;
+  margin-bottom: 10px;
+  color: #2b2e4a;
+  background: #00f0ff;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background: #ff77e9;
+  color: #2b2e4a;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: rgba(255, 0, 255, 0.1);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.3), 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+li button {
+  background: none;
+  padding: 0;
+}
+
+li button:nth-child(1) {
+  color: #00f0ff;
+}
+
+li button:nth-child(2) {
+  color: #ff77e9;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #ff77e9;
+  opacity: 0.6;
+}
